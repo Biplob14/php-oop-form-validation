@@ -13,6 +13,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+
 </head>
 <body>
     
@@ -20,13 +22,13 @@
         <h2>Create new user</h2>
         <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
 
-            <label>User Name</label>
+            <label>User Name: </label>
             <input type="text" name="username">
 
             <label>Email: </label>
             <input type="text" name="email">
 
-            <input type="submit" value="submit">
+            <input type="submit" value="submit" name="submit">
         </form>
     </div>
 
