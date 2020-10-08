@@ -56,4 +56,6 @@ input[type='submit']:hover {
     border-radius: 4px;
     color: coral;
     background-color: #090909;
+    transform: scale(1.02);
+    transition: .3s linear;
 }
