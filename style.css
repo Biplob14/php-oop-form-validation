@@ -59,3 +59,6 @@ input[type='submit']:hover {
     transform: scale(1.02);
     transition: .3s linear;
 }
+form div.error p{
+    color: coral;
+}
